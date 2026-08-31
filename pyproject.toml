@@ -1,0 +1,21 @@
+[project]
+name = "bilinear-reversal-curse"
+version = "1.0.0"
+description = "Training code for 'Bilinear representation mitigates reversal curse and enables consistent model editing' (arXiv:2509.21993)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub",
+    "torch>=2.4",
+    "transformers>=5",
+    "datasets",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "tqdm",
+    "baukit",
+]
+
+[tool.uv.sources]
+baukit = { git = "https://github.com/davidbau/baukit" }
