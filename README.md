@@ -61,10 +61,12 @@ then pass your models directory to the analysis scripts, e.g. `python run_rescal
 ## Citation
 
 ```bibtex
-@article{kim2025bilinear,
-  title={Bilinear representation mitigates reversal curse and enables consistent model editing},
-  author={Kim, Dong-Kyum and Kim, Minsung and Kwon, Jea and Yang, Nakyeong and Cha, Meeyoung},
-  journal={arXiv preprint arXiv:2509.21993},
-  year={2025}
+@inproceedings{
+kim2026bilinear,
+title={Bilinear representation mitigates reversal curse and enables consistent model editing},
+author={Dong-Kyum Kim and Minsung Kim and Jea Kwon and Nakyeong Yang and Meeyoung Cha},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=pdNaYcApbz}
 }
 ```
